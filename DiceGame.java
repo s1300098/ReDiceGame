@@ -23,7 +23,7 @@ System.out.println("Hello, "+name+"!");
      sum+=n;
 }
 System.out.println("Total value: "+sum);
-if(sum>=8)System.out.println("You won!");
-else System.out.println("You lose!");
+if(sum>=8)System.out.println(name+" won!");
+else System.out.println(name+" lose!");
 }
 }
